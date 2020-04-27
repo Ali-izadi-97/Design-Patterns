@@ -1,0 +1,18 @@
+Attach additional responsibilities to an object dynamically
+This pattern says that the class must be closed for modification but open for extension(SOLID open/close)
+--> add new class and functionality without change module and code (use interface!!.ex)
+
+use the concept of object composition instead of inheritance
+can add new responsibilities to an object without affecting the underlying classes
+
+decorator -> promote the concept of dynamic choices
+
+java.io.BufferedOutputStream ---> [decorate] ---> java.io.OutputStream
+
+choise between decorator is static in nature. beacuse of that cannot use inheritance in this situation
+since inheritance and type of binding known in compile time
+
+diamond effect ---> when use inheritance instead of composition (java not allow!!!!)
+
+The decorator pattern is very much effective when you use the single responsibility principle because
+you can simply add/remove responsibilities dynamically

@@ -1,0 +1,3 @@
+This pattern helps us to interchange specific implementations without changing the code that uses them, even at runtime.
+Here a class does not create the objects directly; instead, it delegates the task to a factory object.
+

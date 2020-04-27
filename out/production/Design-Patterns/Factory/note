@@ -1,0 +1,2 @@
+closed for modification but open for extension(open/close in SOLID)
+the factory method lets a class defer instantiation to subclasses
